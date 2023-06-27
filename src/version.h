@@ -11,6 +11,8 @@
 #define PLUGIN_VERSION_RELEASE 2
 
 
+
+
 // ***************************************************************************************
 // ***************************************************************************************
 // ***************************************************************************************
@@ -18,16 +20,16 @@
 // Please FILL UP the content in this area before developing your plugin, and DO NOT modify any code
 // outside this area.
 
-static_assert(false, "Please modify your plugin information below and delete this line!");
 
 // The basic descriptions of your plugin
 // Note that the the plugin name CAN ONLY CONTAIN Enlish alphabet, digit, dash(-) and
 // underscore(_). 
-#define PLUGIN_NAME "HelloWorldPrinter"
-// Describe what your plugin does
-// We recommend you start the introduction with a third-person singular verb.
-#define PLUGIN_INTRODUCTION "Prints \"Hello, World!\" in the console."
-#define PLUGIN_AUTHOR "Me"
+//#define PLUGIN_NAME "PlayerKickFix"
+//#define PLUGIN_INTRODUCTION "Fixes low RakNet timeout which kicks players for no reason"
+#define PLUGIN_NAME "CommandPermChange"
+#define PLUGIN_INTRODUCTION "Change commands permission in config"
+
+#define PLUGIN_AUTHOR "edshPC"
 
 // The version of your plugin. If you do not know how to set it, please refer
 // to https://semver.org/ .
@@ -45,7 +47,7 @@ static_assert(false, "Please modify your plugin information below and delete thi
 // please start the latest version of LiteLoaderBDS and get the protocol version.
 // If you are confident about the version compatibility of your plugin, you can
 // just comment this line (NOT RECOMMENDED).
-#define TARGET_BDS_PROTOCOL_VERSION 560
+//#define TARGET_BDS_PROTOCOL_VERSION 560
 
 // ***************************************************************************************
 // ***************************************************************************************
